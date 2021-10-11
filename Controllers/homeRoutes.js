@@ -4,6 +4,6 @@ const db = require("../Models");
 
 // / route listeners
 
-router.get(`/`, {
+router.get(`/`, (req,res) => {
     
 });

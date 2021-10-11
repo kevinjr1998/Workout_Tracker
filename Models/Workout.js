@@ -1,18 +1,12 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const daySchema = new Schema({
+const workoutSchema = new Schema({
   day: Date,
-  cardio: [
+  exercises: [
     {
       type: Schema.Types.ObjectId,
-      ref: "Cardio",
-    }
-  ],
-  resistance: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: "Resistance",
+      ref: "exercises",
     }
   ],
 });
