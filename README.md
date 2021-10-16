@@ -14,7 +14,6 @@ This website is a full stack web application that allows users to track their wo
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
   - [Questions](#questions)
 
